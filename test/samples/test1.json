@@ -1,0 +1,13 @@
+{
+    "user": "tom",
+    "color": "green",
+    "nested": {
+        "nestedProp": 12
+    },
+    "array_value": [
+        3,
+        4,
+        23
+    ],
+    "addedProperty": 3
+}

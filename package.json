@@ -1,0 +1,30 @@
+{
+  "name": "make-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "build_and_publish": "tsc && npm publish",
+    "build": "tsc"
+  },
+  "files": [
+    "/dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standart": "^6.1.0",
+    "vitest": "^0.23.4"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standart/eslintrc.json"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.186",
+    "lodash": "^4.17.21"
+  }
+}
